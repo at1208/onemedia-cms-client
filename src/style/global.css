@@ -1,0 +1,84 @@
+.MuiPaper-root {
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0%), 0px 4px 5px 0px rgb(0 0 0 / 0%),
+    0px 1px 10px 0px rgb(0 0 0 / 0%) !important;
+}
+.Mui-selected {
+  background-color: rgb(0 0 0 / 10%) !important;
+}
+.MuiAppBar-root {
+  background-color: white !important;
+}
+.makeStyles-content-15 {
+  padding: 10px !important;
+}
+.MuiDrawer-paper {
+  /* background-color: rgb(35, 48, 68)!important; */
+  background-color: #021642 !important;
+  /* background-color: rgb(30, 42, 56) !important; */
+  /* background-color:#101531!important; */
+  border: 0px solid white !important;
+}
+
+.makeStyles-content-19 {
+  padding: 0px;
+}
+.MuiMenu-list {
+  border: 1px solid #e8eaf6;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  img {
+    max-width: 500px;
+  }
+}
+
+img {
+  width: 100%;
+}
+/* @media (min-width:767px) {
+  img{
+    max-width: 600px
+  }
+} */
+.ql-toolbar.ql-snow {
+  padding: 0px;
+  background-color: white;
+}
+.ql-editor {
+  background-color: white;
+}
+a {
+  color: transparent;
+  text-decoration: none;
+}
+
+.MuiListItemIcon-root {
+  min-width: 36px !important;
+}
+
+.Mui-selected {
+  background-color: #eeeeee30 !important;
+}
+@media (min-width: 767px) {
+  .MuiListItem-gutters {
+    padding-left: 32px !important;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.MuiTableCell-sizeSmall {
+  padding: 0px 0px 0px 10px !important;
+}
+
+.MuiInputBase-root.Mui-disabled {
+  color: black !important;
+}
+.MuiInput-underline.Mui-disabled:before {
+  border-bottom-style: none !important;
+}
+.MuiInputBase-input.Mui-disabled {
+  opacity: 0.85;
+}

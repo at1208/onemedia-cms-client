@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: https://cms.readifly.com/api/*
+Disallow: https://www.cms.readifly.com/api/*
+Disallow: http://www.cms.readifly.com/api/*
+Disallow: http://cms.readifly.com/api/*
+Disallow: /

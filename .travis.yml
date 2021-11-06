@@ -1,0 +1,27 @@
+sudo: false
+language: node_js
+node_js:
+  - 14.17.3
+cache:
+  directories:
+    - node_modules
+install:
+  - sudo apt-get install -y npm
+  - npm install -g create-react-app
+script:
+  - npm install
+  - npm run build || true
+deploy:
+  provider: s3
+  access_key_id: $AWS_access_key
+  secret_access_key: $AWS_secret_key
+  skip_cleanup: true
+  local_dir: build
+  region: us-east-2
+  on:
+    repo: at1208/onemedia-cms-client
+    branch: main
+  bucket: cms
+notifications:
+  email:
+    - amantiwari12081999@gmail.com
